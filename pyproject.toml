@@ -1,0 +1,17 @@
+[project]
+name = "font-editor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "your_name", email = "your_name@example.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+font-editor = "font_editor:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
